@@ -21,6 +21,7 @@ function App() {
     <>
       <BrowserRouter>
         <ComponentHeader />
+        <Maincon />
         <Routes>
           <Route path="/" element={<Maincon />}></Route>
           <Route path="/aboutMe" element={<AboutMe />}></Route>
