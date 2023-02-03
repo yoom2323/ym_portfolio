@@ -1,0 +1,29 @@
+.headerContainer {
+  z-index: 999;
+  width: 100%;
+  height: 6vh;
+  position: fixed;
+  top: 0;
+  background-color: #e4dbe3;
+  display: grid;
+  grid-template-columns: 67% 33%;
+  border-bottom: 1px solid #292929;
+  .box1 {
+    display: flex;
+    align-items: center;
+    p {
+      cursor: pointer;
+      margin: 0 0 0 2vw;
+      text-transform: uppercase;
+      font-family: "Clearface", sans-serif;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #292929;
+      text-decoration: none;
+
+    }
+  }
+  .box2 {
+    border-left: 1px solid #292929;
+  }
+}

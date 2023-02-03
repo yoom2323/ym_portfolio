@@ -1,0 +1,67 @@
+@import "./fonts.scss";
+body {
+  margin: 0;
+}
+.wrapper {
+  width: 100%;
+  height: 475px;
+  background-color: #e4dbe3;
+  color: #292929;
+  font-family: "Clearface", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  border-top: 1px solid #292929;
+
+  p {
+    font-family: "ClearfaceItalic", sans-serif;
+    margin: 0;
+    font-size: 2.5em;
+    margin-left: 95px;
+    position: absolute;
+    top: 150px;
+    b {
+      font-size: 1.3em;
+      display: inline-block;
+      transform: translateY(3px);
+    }
+    span {
+      cursor: pointer;
+      font-family: "NeueHaasDisplayLight", sans-serif;
+      text-transform: lowercase;
+      font-style: italic;
+      font-weight: 100;
+      font-size: 0.7em;
+      display: inline-block;
+      transform: translateY(-7px);
+      &::after {
+        position: absolute;
+        content: "";
+        display: block;
+        width: 100%;
+        border-bottom: 2px solid #292929;
+      }
+      &:hover::after {
+        content: "";
+        display: block;
+        animation: slide infinite 2s;
+      }
+      @keyframes slide {
+        100% {
+          width: 100%;
+        }
+        0% {
+          width: 0;
+        }
+      }
+    }
+  }
+  h1 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 9vw;
+    font-weight: 100;
+    margin: 0;
+  }
+}

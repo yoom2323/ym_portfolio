@@ -1,0 +1,89 @@
+// 나눔명조
+
+@import url(https://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+.nanummyeongjo * {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+// Clearface
+@font-face {
+  font-family: "Clearface";
+  src: url(../assets/fonts/ITCClearfaceStdRegular.woff2) format("woff2"),
+    url(../assets/fonts/ITC-Clearface-Std-Regular.woff) format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ClearfaceItalic";
+  src: url(../assets/fonts/ClearfaceStd-Italic.7b1c098.woff2) format("woff2");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+// Neue Haas
+@font-face {
+  font-family: "NeueHaasDisplayLight";
+  src: url(../assets/fonts/AnyConv.com__NeueHaasDisplayLight.woff2)
+      format("woff2"),
+    url(../assets/fonts/AnyConv.com__NeueHaasDisplayLight.woff) format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NeueHaasDisplayLightItalic";
+  src: url(../assets/fonts/AnyConv.com__NeueHaasDisplayLightItalic.woff2)
+      format("woff2"),
+    url(../assets/fonts/AnyConv.com__NeueHaasDisplayLight.woff) format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NeueHaasDisplayMedi";
+  src: url(../assets/fonts/AnyConv.com__NeueHaasDisplayMediu.woff2)
+      format("woff2"),
+    url(../assets/fonts/AnyConv.com__NeueHaasDisplayMediu.woff) format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NeueHaasDisplayMediumItalic";
+  src: url(../assets/fonts/AnyConv.com__NeueHaasDisplayMediumItalic.woff2)
+      format("woff2"),
+    url(../assets/fonts/AnyConv.com__NeueHaasDisplayMediumItalic.woff)
+      format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+// S-Core Dream
+@font-face {
+  font-family: "SCDream1";
+  src: url(../assets/fonts/AnyConv.com__SCDream1.woff2) format("woff2"),
+    url(../assets/fonts//AnyConv.com__SCDream1.woff) format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SCDream5";
+  src: url(../assets/fonts/AnyConv.com__SCDream5.woff2) format("woff2"),
+    url(../assets/fonts/AnyConv.com__SCDream5.woff) format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SCDream9";
+  src: url(../assets/fonts/AnyConv.com__SCDream9.woff2) format("woff2"),
+    url(../assets/fonts/AnyConv.com__SCDream9.woff) format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}

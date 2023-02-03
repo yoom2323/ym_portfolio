@@ -1,0 +1,56 @@
+.container {
+  background-color: #e4dbe3;
+  margin-top: 6vh;
+  font-family: "Clearface", sans-serif;
+  display: grid;
+  grid-template-columns: 2% 32% 33% 33%;
+  grid-template-rows: 88vh;
+  .box1 {
+    border-right: 1px solid #292929;
+  }
+  .box2 {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        cursor: pointer;
+        height: 18.25vh;
+        border-top: 1px solid #292929;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        font-size: 4em;
+        color: #292929;
+        text-transform: uppercase;
+        padding-left: 2vw;
+        &:nth-child(3) {
+          font-size: 3em;
+        }
+      }
+    }
+    .skills {
+      display: flex;
+      align-items: center;
+      h1 {
+        margin: 0 0 0 2vw;
+        font-size: 5em;
+        color: white;
+        text-transform: capitalize;
+        font-weight: normal;
+      }
+      height: 15vh;
+      width: 100%;
+      background-color: #292929;
+    }
+    border-right: 1px solid #292929;
+  }
+  .box3 {
+  }
+  .box4 {
+    border-left: 1px solid #292929;
+  }
+}
+.stickyBox {
+  border-bottom: none;
+}
