@@ -21,9 +21,9 @@ function App() {
     <>
       <BrowserRouter>
         <ComponentHeader />
-        <Maincon />
         <Routes>
           <Route path="/" element={<Maincon />}></Route>
+          <Route path="/ym_portfolio" element={<Maincon />}></Route>
           <Route path="/aboutMe" element={<AboutMe />}></Route>
           <Route path="/skills" element={<Skills />}></Route>
           <Route path="/Pf1" element={<Pf1 />}></Route>
