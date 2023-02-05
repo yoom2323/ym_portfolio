@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/ym_portfolio/static/css/main.9327828b.css",
-    "main.js": "/ym_portfolio/static/js/main.29b460f7.js",
+    "main.css": "/ym_portfolio/static/css/main.8d53884f.css",
+    "main.js": "/ym_portfolio/static/js/main.e5c41a53.js",
+    "static/media/jsImg.png": "/ym_portfolio/static/media/jsImg.de737969ad89236b1288.png",
     "static/media/htmlImg.png": "/ym_portfolio/static/media/htmlImg.87eb58b3156f0e2278cd.png",
+    "static/media/cssImg.png": "/ym_portfolio/static/media/cssImg.7b2c1f73855368a71865.png",
+    "static/media/reactImg.png": "/ym_portfolio/static/media/reactImg.25051af63aa43aba1cf6.png",
     "static/media/AnyConv.com__SCDream9.woff2": "/ym_portfolio/static/media/AnyConv.com__SCDream9.da665f1a2a18083707c8.woff2",
     "static/media/AnyConv.com__SCDream5.woff2": "/ym_portfolio/static/media/AnyConv.com__SCDream5.9811b2d1d718efaed63f.woff2",
     "static/media/AnyConv.com__SCDream1.woff2": "/ym_portfolio/static/media/AnyConv.com__SCDream1.655c68504e178a63d7ac.woff2",
@@ -23,11 +26,11 @@
     "static/media/ClearfaceStd-Italic.7b1c098.woff2": "/ym_portfolio/static/media/ClearfaceStd-Italic.7b1c098.7b1c098498ac209adff5.woff2",
     "static/media/group16.png": "/ym_portfolio/static/media/group16.fc22285cd70edeb4a480.png",
     "index.html": "/ym_portfolio/index.html",
-    "main.9327828b.css.map": "/ym_portfolio/static/css/main.9327828b.css.map",
-    "main.29b460f7.js.map": "/ym_portfolio/static/js/main.29b460f7.js.map"
+    "main.8d53884f.css.map": "/ym_portfolio/static/css/main.8d53884f.css.map",
+    "main.e5c41a53.js.map": "/ym_portfolio/static/js/main.e5c41a53.js.map"
   },
   "entrypoints": [
-    "static/css/main.9327828b.css",
-    "static/js/main.29b460f7.js"
+    "static/css/main.8d53884f.css",
+    "static/js/main.e5c41a53.js"
   ]
 }
