@@ -10,6 +10,7 @@
   }
   .box2 {
     ul {
+      z-index: 99999;
       list-style: none;
       padding: 0;
       margin: 0;
@@ -24,20 +25,45 @@
         color: #292929;
         text-transform: uppercase;
         padding-left: 2vw;
+        z-index: 999;
+        background-color: transparent;
+        position: relative;
+        transition: 0.8s;
+
         &:nth-child(3) {
           font-size: 3em;
+        }
+        &:not(:hover)::after {
+          transition: 0.8s;
+        }
+        &:hover::after {
+          transition: 0.8s;
+          height: 100%;
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          width: 100%;
+          height: 0;
+          background-color: #d7c5ee;
+          transform: translateX(-2vw);
+          z-index: -1;
         }
       }
     }
     .skills {
       display: flex;
       align-items: center;
+      overflow: hidden;
       h1 {
         margin: 0 0 0 2vw;
         font-size: 5em;
         color: white;
         text-transform: capitalize;
         font-weight: normal;
+        animation: right 2s;
+        display: block;
       }
       height: 15vh;
       width: 100%;
@@ -46,56 +72,81 @@
     border-right: 1px solid #292929;
   }
   .box3 {
+    width: 100%;
+    height: 100%;
+    background-color: #d7c5ee;
 
-  width: 100%;
-  height: 100%;
-  background-color: #D7C5EE;
+    transition: 0.5s;
 
-  transition: .5s;
-  
-  }
-  .transition {
-    animation: fadein 1s ease-in-out;
+    display: flex;
+    place-items: center;
+    ul {
+      list-style: none;
+      margin: 0;
+      li {
+        display: flex;
+        span {
+          b {
+            background: linear-gradient(to top, #ac74f2 40%, transparent 40%);
+          }
+        }
+        img {
+          width: 70px;
+          height: 70px;
+          vertical-align: baseline;
+          margin-right: 10px;
+        }
+        font-family: "SCDream3", sans-serif;
+        font-size: 1.2em;
+        color: #292929;
+        margin: 40px 20px;
+      }
+    }
+    .transition {
+      animation: fadein 1s ease-in-out;
+    }
   }
   .box4 {
     border-left: 1px solid #292929;
     display: flex;
     place-items: center;
     justify-content: center;
-    transition: .5s;
+    transition: 0.5s;
     overflow: hidden;
 
     h2 {
       font-family: "NeueHaasDisplayLightItalic", sans-serif;
       font-size: 4em;
 
-      animation: header 2s ease-in-out ;
+      animation: header 2s ease-in-out;
     }
     img {
       width: 100%;
       height: 70%;
       object-fit: cover;
-      animation: swing 3s ease-in-out infinite ;
+      animation: swing 3s ease-in-out infinite;
       transition: 1s;
     }
   }
-
 }
 
 @keyframes header {
-  0%{
+  0% {
     opacity: 0;
     transform: perspective(600px) rotateY(-20deg);
   }
-  100%{opacity: 1;
-  transform: perspective(600px) rotateY(0deg);
-}
+  100% {
+    opacity: 1;
+    transform: perspective(600px) rotateY(0deg);
+  }
 }
 @keyframes fadein {
-  0%{
+  0% {
     opacity: 0;
   }
-  100%{opacity: 1;}
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes swing {
@@ -103,9 +154,9 @@
     transform: perspective(600px) rotateY(-20deg);
   }
 
-50% {
-  transform: perspective(600px) rotateY(0);
-}
+  50% {
+    transform: perspective(600px) rotateY(0);
+  }
   100% {
     transform: perspective(600px) rotateY(-20deg);
   }
@@ -113,4 +164,16 @@
 
 .stickyBox {
   border-bottom: none;
+}
+
+@keyframes right {
+  0% {
+    z-index: 9;
+    transform: translateX(-100%);
+  }
+  100% {
+    z-index: 9;
+
+    transform: translateX(0);
+  }
 }

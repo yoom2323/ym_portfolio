@@ -1,8 +1,23 @@
 import React from "react";
 import "../style/aboutMeCon.scss";
 import smile from "../assets/images/icons8-smiling-face-with-heart-100.png";
+import pp from "../assets/images/pp.png";
+import { Link } from "react-router-dom";
 
 function AboutMeCon(props) {
+  const url = "omgvic@naver.com";
+  const git = "https://github.com/yoom2323";
+  const copy = (url) => {
+    const $textarea = document.createElement("textarea");
+    document.body.appendChild($textarea);
+    $textarea.value = url;
+    $textarea.select();
+    document.execCommand("copy");
+    document.body.removeChild($textarea);
+
+    alert("복사되었습니다!");
+  };
+
   return (
     <div className="aboutMeCon">
       <div class="title">
@@ -20,7 +35,7 @@ function AboutMeCon(props) {
           입니다.
           <br />
           <br />
-          <b>직관적 · 유연함 · 심미성</b> 세가지를 최우선으로 고려한 UI구현에
+          <b>직관성 · 유연성 · 심미성</b> 세가지를 최우선으로 고려한 UI구현에
           중점을 두고 있습니다.
           <br />
           <br />
@@ -33,6 +48,34 @@ function AboutMeCon(props) {
           <br />
           <b>소통</b>에 힘쓰고, 현실에 안주하지 않는 개발자가 되겠습니다.
         </p>
+        <div className="link">
+          <div className="email">
+            <img src={pp} alt="pp" />
+            <span className="uLine">
+              <span>E-MAIL</span>
+            </span>
+            <p
+              onClick={() => {
+                copy(url);
+              }}
+            >
+              omgvic@naver.com
+            </p>
+          </div>
+          <div className="github">
+            <img src={pp} alt="pp" />
+            <span className="uLine">
+              <span>GITHUB</span>
+            </span>
+            <p
+              onClick={() => {
+                window.open(git);
+              }}
+            >
+              https://github.com/yoom2323
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
