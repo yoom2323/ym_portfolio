@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutMeCon2(props) {
   return (
-    <div>
+    <div className="aboutMeCon2">
       <h1>사진</h1>
     </div>
   );

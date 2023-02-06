@@ -72,6 +72,14 @@
   font-display: swap;
 }
 @font-face {
+  font-family: "SCDream3";
+  src: url(../assets/fonts/AnyConv.com__SCDream3.woff2) format("woff2"),
+    url(../assets/fonts/AnyConv.com__SCDream3.woff) format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: "SCDream5";
   src: url(../assets/fonts/AnyConv.com__SCDream5.woff2) format("woff2"),
     url(../assets/fonts/AnyConv.com__SCDream5.woff) format("woff");

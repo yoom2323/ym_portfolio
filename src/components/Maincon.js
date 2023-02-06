@@ -26,11 +26,13 @@ function Maincon() {
         </div>
         <div className="item3 aboutMe">
           <Link to="/aboutMe" style={{ textDecoration: "none" }}>
+            <div className="colorBox"></div>
             <p>About Me</p>
           </Link>
         </div>
         <div className="item4 skills">
           <Link to="/skills" style={{ textDecoration: "none" }}>
+            <div className="colorBox2"></div>
             <p>Skills</p>
           </Link>
         </div>

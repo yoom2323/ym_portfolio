@@ -34,7 +34,20 @@
       height: 32.65vh;
       border-left: 1px solid #292929;
       place-items: end;
+      overflow: hidden;
+      .colorBox {
+        height: 0;
+        transition: 0.8s;
+      }
+      &:hover .colorBox {
+        position: absolute;
+        background-color: #d7c5ee;
+        width: 32.6vw;
+        height: 32.5vh;
+        top: 0;
+      }
       p {
+        position: absolute;
         cursor: pointer;
         font-size: 2.5em;
         display: block;
@@ -42,6 +55,7 @@
         font-weight: bold;
         color: #292929;
         margin: 30px;
+        top: 22vh;
       }
     }
     .item4 {
@@ -49,7 +63,20 @@
       border-left: 1px solid #292929;
       border-top: 1px solid #292929;
       place-items: end;
+      overflow: hidden;
+      .colorBox2 {
+        height: 0;
+        transition: 0.8s;
+      }
+      &:hover .colorBox2 {
+        position: absolute;
+        background-color: #d7c5ee;
+        width: 32.6vw;
+        height: 32.5vh;
+        top: 32.7vh;
+      }
       p {
+        position: absolute;
         cursor: pointer;
         font-size: 2.5em;
         display: block;
@@ -57,6 +84,7 @@
         font-weight: bold;
         color: #292929;
         margin: 30px;
+        top: 55vh;
       }
     }
     .item5 {
@@ -78,8 +106,7 @@
           text-transform: uppercase;
           white-space: nowrap;
           will-change: transform;
-        color: #292929;
-
+          color: #292929;
 
           display: flex;
           align-items: center;
@@ -148,7 +175,6 @@
       object-fit: cover;
       width: 100%;
 
-
       &:hover {
         transform: perspective(600px) rotateY(-20deg);
         transition: 1s ease-out;
@@ -169,7 +195,6 @@
     img {
       object-fit: cover;
       width: 100%;
-
 
       &:hover {
         transform: perspective(600px) rotateY(-20deg);
