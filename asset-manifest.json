@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ym_portfolio/static/css/main.095cc474.css",
-    "main.js": "/ym_portfolio/static/js/main.ba6bb0da.js",
+    "main.css": "/ym_portfolio/static/css/main.2b338d9f.css",
+    "main.js": "/ym_portfolio/static/js/main.765244bf.js",
     "static/media/jsImg.png": "/ym_portfolio/static/media/jsImg.de737969ad89236b1288.png",
     "static/media/htmlImg.png": "/ym_portfolio/static/media/htmlImg.87eb58b3156f0e2278cd.png",
     "static/media/cssImg.png": "/ym_portfolio/static/media/cssImg.7b2c1f73855368a71865.png",
@@ -15,24 +15,27 @@
     "static/media/AnyConv.com__SCDream3.woff": "/ym_portfolio/static/media/AnyConv.com__SCDream3.417c2025f3bb20c06a9b.woff",
     "static/media/AnyConv.com__SCDream9.woff": "/ym_portfolio/static/media/AnyConv.com__SCDream9.2734054436b1bf89097a.woff",
     "static/media/AnyConv.com__SCDream1.woff": "/ym_portfolio/static/media/AnyConv.com__SCDream1.41700e79cc54d053a93c.woff",
+    "static/media/pf2.png": "/ym_portfolio/static/media/pf2.10507d9e1f2fd962c057.png",
     "static/media/tree.png": "/ym_portfolio/static/media/tree.b9188ce0ad40dc053716.png",
     "static/media/AnyConv.com__NeueHaasDisplayLight.woff2": "/ym_portfolio/static/media/AnyConv.com__NeueHaasDisplayLight.3990a90bc601cbcc9b9c.woff2",
     "static/media/AnyConv.com__NeueHaasDisplayMediumItalic.woff2": "/ym_portfolio/static/media/AnyConv.com__NeueHaasDisplayMediumItalic.13ca28f1e05c91361553.woff2",
     "static/media/AnyConv.com__NeueHaasDisplayMediu.woff2": "/ym_portfolio/static/media/AnyConv.com__NeueHaasDisplayMediu.9127f7ed3c0f744d8e70.woff2",
     "static/media/ITCClearfaceStdRegular.woff2": "/ym_portfolio/static/media/ITCClearfaceStdRegular.0efe4d6715198a05b3f2.woff2",
     "static/media/AnyConv.com__NeueHaasDisplayLightItalic.woff2": "/ym_portfolio/static/media/AnyConv.com__NeueHaasDisplayLightItalic.5e691ce7f9863275e12d.woff2",
+    "static/media/photo.jpg": "/ym_portfolio/static/media/photo.719810014a7e72c3de23.jpg",
     "static/media/AnyConv.com__NeueHaasDisplayMediumItalic.woff": "/ym_portfolio/static/media/AnyConv.com__NeueHaasDisplayMediumItalic.b1e1e630ee35880f6446.woff",
     "static/media/AnyConv.com__NeueHaasDisplayLight.woff": "/ym_portfolio/static/media/AnyConv.com__NeueHaasDisplayLight.ddb82c1a0e8f9864a688.woff",
     "static/media/AnyConv.com__NeueHaasDisplayMediu.woff": "/ym_portfolio/static/media/AnyConv.com__NeueHaasDisplayMediu.48f084ac666ad1531335.woff",
+    "static/media/pf1.png": "/ym_portfolio/static/media/pf1.a2f04a2d07e3c53f72ef.png",
     "static/media/ITC-Clearface-Std-Regular.woff": "/ym_portfolio/static/media/ITC-Clearface-Std-Regular.f59f172f098546fb76d2.woff",
     "static/media/ClearfaceStd-Italic.7b1c098.woff2": "/ym_portfolio/static/media/ClearfaceStd-Italic.7b1c098.7b1c098498ac209adff5.woff2",
     "static/media/group16.png": "/ym_portfolio/static/media/group16.fc22285cd70edeb4a480.png",
     "index.html": "/ym_portfolio/index.html",
-    "main.095cc474.css.map": "/ym_portfolio/static/css/main.095cc474.css.map",
-    "main.ba6bb0da.js.map": "/ym_portfolio/static/js/main.ba6bb0da.js.map"
+    "main.2b338d9f.css.map": "/ym_portfolio/static/css/main.2b338d9f.css.map",
+    "main.765244bf.js.map": "/ym_portfolio/static/js/main.765244bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.095cc474.css",
-    "static/js/main.ba6bb0da.js"
+    "static/css/main.2b338d9f.css",
+    "static/js/main.765244bf.js"
   ]
 }
