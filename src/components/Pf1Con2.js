@@ -1,9 +1,11 @@
-import React from "react";
-
+import "../style/pf1Con2.scss";
+import pf1Con2 from "../assets/images/pf1Con2.png";
 function Pf1Con2(props) {
   return (
-    <div>
-      <h1>Pf1 이미지</h1>
+    <div className="pf1Con2">
+      <div className="imgbox">
+        <img src={pf1Con2} alt="studioRhe" />
+      </div>
     </div>
   );
 }

@@ -8,8 +8,8 @@ import tree from "../assets/images/tree.png";
 import develope from "../assets/images/group16.png";
 import art from "../assets/images/art.png";
 import { useEffect, useState } from "react";
-import smile from "../assets/images/icons8-smiling-face-with-heart-100.png";
-import boom from "../assets/images/icons8-bang-64 (1).png";
+import smile from "../assets/images/smile.png";
+import boom from "../assets/images/bang.png";
 import pf1 from "../assets/images/pf1.png";
 import pf2 from "../assets/images/pf2.png";
 
@@ -19,23 +19,68 @@ const pfData = [
     title: pf1,
     img: <img src={pf1} alt="pf1" />,
     des: <span>Studio RHE</span>,
-    des2: <span>#가로스크롤<br/>#스크롤 인디케이터<br/>#영상 임베드<br/>#팀 프로젝트</span>
+    des2: (
+      <span>
+        #가로스크롤
+        <br />
+        #스크롤 인디케이터
+        <br />
+        #영상 임베드
+        <br />
+        #팀 프로젝트
+      </span>
+    ),
   },
-  { id: 2, title: pf2, img: <img src={pf2} alt="pf2" />,     des: <span>DYAMI</span>,
-  des2: <span>#리액트<br/>#스와이퍼<br/>#OpenAPI 활용<br/>#개인 작업</span> },
+  {
+    id: 2,
+    title: pf2,
+    img: <img src={pf2} alt="pf2" />,
+    des: <span>DYAMI</span>,
+    des2: (
+      <span>
+        #리액트
+        <br />
+        #스와이퍼
+        <br />
+        #OpenAPI 활용
+        <br />
+        #개인 작업
+      </span>
+    ),
+  },
   {
     id: 3,
     title: pf2,
     img: <img src="" alt="pf3" />,
     des: <span>Pf3</span>,
-  des2: <span>#리액트<br/>#스와이퍼<br/>#OpenAPI 활용<br/>#개인 작업</span>
+    des2: (
+      <span>
+        #리액트
+        <br />
+        #스와이퍼
+        <br />
+        #OpenAPI 활용
+        <br />
+        #개인 작업
+      </span>
+    ),
   },
   {
     id: 4,
     title: pf2,
     img: <img src="" alt="pf4" />,
     des: <span>Pf4</span>,
-  des2: <span>#리액트<br/>#스와이퍼<br/>#OpenAPI 활용<br/>#개인 작업</span>
+    des2: (
+      <span>
+        #리액트
+        <br />
+        #스와이퍼
+        <br />
+        #OpenAPI 활용
+        <br />
+        #개인 작업
+      </span>
+    ),
   },
 ];
 
@@ -111,7 +156,10 @@ function Maincon(props) {
         <div className="item7 tree">
           <img src={tree} alt="tree" />
         </div>
-        <div className="item8 description"><p>{text}</p>{text2}</div>
+        <div className="item8 description">
+          <p>{text}</p>
+          {text2}
+        </div>
         <div className="item9 pj2">
           <Link
             to="/Pf2"

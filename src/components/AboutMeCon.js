@@ -1,6 +1,6 @@
 import React from "react";
 import "../style/aboutMeCon.scss";
-import smile from "../assets/images/icons8-smiling-face-with-heart-100.png";
+import smile from "../assets/images/smile.png";
 import pp from "../assets/images/pp.png";
 import { Link } from "react-router-dom";
 

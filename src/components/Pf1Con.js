@@ -1,9 +1,12 @@
 import React from "react";
+import "../style/pf1Con.scss";
 
 function Pf1Con(props) {
   return (
-    <div>
-      <h1>Pf1 설명</h1>
+    <div className="pf1Con">
+      <div class="title">
+        <h1>Studio RHE</h1>
+      </div>
     </div>
   );
 }

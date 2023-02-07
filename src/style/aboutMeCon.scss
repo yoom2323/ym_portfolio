@@ -1,16 +1,16 @@
 .aboutMeCon {
   .title {
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    background-color: #292929;
+    color: white;
+
     h1 {
       animation: right 2s;
       display: block;
-    }
-  }
-  color: #292929;
-  .title {
-    display: flex;
-    align-items: center;
-    h1 {
       margin: 0 0 0 2vw;
       font-size: 5em;
       color: white;
@@ -18,9 +18,6 @@
       font-weight: normal;
       font-family: "Clearface", sans-serif;
     }
-    height: 15vh;
-    width: 100%;
-    background-color: #292929;
   }
   .textBox {
     font-family: "SCDream3", sans-serif;

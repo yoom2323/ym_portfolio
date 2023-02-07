@@ -1,0 +1,24 @@
+.pf1Con2 {
+  overflow: hidden;
+  .imgbox {
+    // width: 1920px;
+    img {
+      width: 1920px;
+      height: 100%;
+      object-fit: cover;
+      animation: left 8s infinite ease-in-out alternate-reverse;
+      opacity: 0.8;
+    }
+  }
+}
+
+@keyframes left {
+  0% {
+    width: 1920px;
+    transform: translateX(0);
+  }
+  100% {
+    width: 1920px;
+    transform: translateX(calc(-100% + 33vw));
+  }
+}

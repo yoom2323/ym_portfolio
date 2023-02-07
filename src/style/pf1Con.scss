@@ -1,0 +1,22 @@
+.pf1Con {
+  .title {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    background-color: #292929;
+    color: white;
+
+    h1 {
+      animation: right 2s;
+      display: block;
+      margin: 0 0 0 2vw;
+      font-size: 5em;
+      color: white;
+      text-transform: capitalize;
+      font-weight: normal;
+      font-family: "Clearface", sans-serif;
+    }
+  }
+}
