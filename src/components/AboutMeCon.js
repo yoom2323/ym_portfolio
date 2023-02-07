@@ -1,7 +1,7 @@
 import React from "react";
-// import "../style/aboutMeCon.scss";
+import "../style/aboutMeCon.scss";
 import smile from "../assets/images/icons8-smiling-face-with-heart-100.png";
-// import pp from "../assets/images/pp.png";
+import pp from "../assets/images/pp.png";
 import { Link } from "react-router-dom";
 
 function AboutMeCon(props) {
@@ -50,7 +50,7 @@ function AboutMeCon(props) {
         </p>
         <div className="link">
           <div className="email">
-            <img src={""} alt="pp" />
+            <img src={pp} alt="pp" />
             <span className="uLine">
               <span>E-MAIL</span>
             </span>
@@ -63,7 +63,7 @@ function AboutMeCon(props) {
             </p>
           </div>
           <div className="github">
-            <img src={""} alt="pp" />
+            <img src={pp} alt="pp" />
             <span className="uLine">
               <span>GITHUB</span>
             </span>

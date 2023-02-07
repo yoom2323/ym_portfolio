@@ -5,9 +5,9 @@ import htmlImg from "../assets/images/htmlImg.png";
 import jsImg from "../assets/images/jsImg.png";
 import cssImg from "../assets/images/cssImg.png";
 import reactImg from "../assets/images/reactImg.png";
-// import check from "../assets/images/check.png";
+import check from "../assets/images/check.png";
 
-const chk = <img src={""} alt="chk" />;
+const chk = <img src={check} alt="chk" />;
 
 const data = [
   {
@@ -186,7 +186,7 @@ function Skills(props) {
                       setCheck(false),
                     ]}
                   >
-                    <p>{skill.title}</p>
+                    {skill.title}
                   </li>
                 )
               )

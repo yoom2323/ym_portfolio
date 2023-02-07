@@ -1,5 +1,5 @@
 import React from "react";
-// import "../style/aboutMeCon2.scss";
+import "../style/aboutMeCon2.scss";
 import photo from "../assets/images/photo.jpg";
 
 function AboutMeCon2(props) {
