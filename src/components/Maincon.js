@@ -82,6 +82,23 @@ const pfData = [
       </span>
     ),
   },
+  {
+    id: 5,
+    title: "pfNote",
+    img: <img src="" alt="pfNote" />,
+    des: <span>Portfolio Review</span>,
+    des2: (
+      <span>
+        #리액트
+        <br />
+        #flex, grid
+        <br />
+        #OpenAPI 활용
+        <br />
+        #개인 작업
+      </span>
+    ),
+  },
 ];
 
 {
@@ -154,7 +171,15 @@ function Maincon(props) {
           </Link>
         </div>
         <div className="item7 tree">
-          <img src={tree} alt="tree" />
+          <Link
+            to="https://www.notion.so/38c24ab3f5454c428685eec99bab5521"
+            style={{ textDecoration: "none" }}
+            onMouseEnter={() => [des(pfData[4].id)]}
+            onMouseLeave={() => [setText(""), setText2("")]}
+            target="_blank"
+          >
+            <img src={tree} alt="tree" />
+          </Link>
         </div>
         <div className="item8 description">
           <p>{text}</p>

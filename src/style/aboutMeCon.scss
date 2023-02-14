@@ -54,7 +54,6 @@
     }
     b {
       display: inline-block;
-      animation: float 1s infinite alternate ease-in-out;
     }
   }
   .link {
@@ -137,14 +136,6 @@
         }
       }
     }
-  }
-}
-@keyframes float {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-8px);
   }
 }
 

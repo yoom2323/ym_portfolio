@@ -181,9 +181,9 @@ function Skills(props) {
                     key={skill.id}
                     onMouseEnter={() => [des(skill.id)]}
                     onMouseLeave={() => [
-                      setText("What Can I Do?"),
-                      setImg(""),
-                      setCheck(false),
+                      // setText("What Can I Do?"),
+                      // setImg(""),
+                      // setCheck(false),
                     ]}
                   >
                     {skill.title}
