@@ -12,12 +12,30 @@ import smile from "../assets/images/smile.png";
 import boom from "../assets/images/bang.png";
 import pf1 from "../assets/images/pf1.png";
 import pf2 from "../assets/images/pf2.png";
+import pf3 from "../assets/images/pf3.png";
 
 const pfData = [
   {
     id: 1,
     title: pf1,
     img: <img src={pf1} alt="pf1" />,
+    des: <span>SL Studio</span>,
+    des2: (
+      <span>
+        #반응형
+        <br />
+        #스와이퍼
+        <br />
+        #영상 임베드
+        <br />
+        #개인 작업
+      </span>
+    ),
+  },
+  {
+    id: 2,
+    title: pf2,
+    img: <img src={pf2} alt="pf2" />,
     des: <span>Studio RHE</span>,
     des2: (
       <span>
@@ -32,27 +50,10 @@ const pfData = [
     ),
   },
   {
-    id: 2,
-    title: pf2,
-    img: <img src={pf2} alt="pf2" />,
-    des: <span>DYAMI</span>,
-    des2: (
-      <span>
-        #리액트
-        <br />
-        #스와이퍼
-        <br />
-        #OpenAPI 활용
-        <br />
-        #개인 작업
-      </span>
-    ),
-  },
-  {
     id: 3,
-    title: pf2,
-    img: <img src="" alt="pf3" />,
-    des: <span>Pf3</span>,
+    title: pf3,
+    img: <img src={pf3} alt="pf3" />,
+    des: <span>DYAMI</span>,
     des2: (
       <span>
         #리액트

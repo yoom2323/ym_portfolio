@@ -1,0 +1,55 @@
+.pf3Con2 {
+  overflow: hidden;
+  .imgbox {
+    position: relative;
+    height: 114vh;
+    overflow: hidden;
+    img {
+      width: 100%;
+      object-fit: cover;
+      animation: slstudio 8s infinite ease-in-out alternate-reverse;
+      opacity: 1;
+    }
+    .view {
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 114vh;
+      display: flex;
+      transform: translateY(-10%);
+      justify-content: center;
+      place-items: center;
+      background-color: rgba(255, 255, 255, 0.123);
+      p {
+        color: #292929;
+        font-size: 8em;
+        font-weight: bold;
+        font-family: "SCDream3", sans-serif;
+        z-index: 999;
+        font-style: italic;
+        display: none;
+      }
+      &:hover {
+        background-color: transparent;
+        p {
+          display: block;
+        }
+      }
+    }
+  }
+}
+img:hover .view {
+  z-index: 999;
+}
+
+@keyframes slstudio {
+  0% {
+    transform: translateY(calc(-100% + 114vh));
+
+    // transform: translateX(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

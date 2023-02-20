@@ -1,0 +1,53 @@
+.pf2Con2 {
+  overflow: hidden;
+  .imgbox {
+    overflow: hidden;
+    position: relative;
+    img {
+      object-fit: cover;
+      animation: beyond 8s infinite ease-in-out alternate-reverse;
+      opacity: 1;
+    }
+    .view {
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      place-items: center;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.123);
+      p {
+        color: white;
+        font-size: 8em;
+        font-weight: bold;
+        font-family: "SCDream3", sans-serif;
+        z-index: 999;
+        font-style: italic;
+        display: none;
+      }
+      &:hover {
+        background-color: transparent;
+        p {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+img:hover .view {
+  z-index: 999;
+}
+@keyframes beyond {
+  0% {
+    width: 1920px;
+    transform: translateX(calc(-100% + 33vw));
+    // transform: translateX(100%);
+  }
+  100% {
+    width: 1920px;
+    transform: translateX(0);
+  }
+}

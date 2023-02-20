@@ -5,7 +5,7 @@ function Pf1Con(props) {
   return (
     <div className="pf1Con">
       <div class="title">
-        <h1>Studio RHE</h1>
+        <h1>SL Studio</h1>
       </div>
     </div>
   );

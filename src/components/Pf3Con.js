@@ -5,7 +5,7 @@ function Pf3Con(props) {
   return (
     <div className="pf3Con">
       <div class="title">
-        <h1>pf3Con</h1>
+        <h1>DYAMI</h1>
       </div>
     </div>
   );
